@@ -1,3 +1,4 @@
+In this configuration, the data is replicated to all nodes equally.
 sudo docker node ls
 sudo docker node update --label-add mongo.replica=1 --label-add mongo.role=manager <node_id_for_pc0>
 sudo docker node update --label-add mongo.replica=2 --label-add mongo.role=worker <node_id_for_pc1>
