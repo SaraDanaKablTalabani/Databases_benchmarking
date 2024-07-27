@@ -30,3 +30,24 @@ transaction
 
 sudo ./bin/ycsb run mongodb -s -P workloads/workloada -p mongodb.url="mongodb://10.0.13.240:27017/admin
 " -threads 16
+
+...................
+
+rs.initiate()
+
+rs.add("mongo_db2:27017")
+
+rs.add("mongo_db3:27017")
+
+rs.add("mongo_db4:27017")
+
+rs.add("mongo_db5:27017")
+
+rs.add("mongo_db6:27017")
+
+rs.add("mongo_db7:27017")
+
+rs.add("mongo_db8:27017")
+
+rs.add("mongo_db9:27017")
+
